@@ -23,6 +23,7 @@ To provide the models a starting point, the weekend ticket prices were averaged 
 The cross validation on linear modeling provided 8 features that made the most critical impact on ticket pricing. Those eight features are vertical drop, acres covered by snow making, total number of chair lifts, total number of fast quad lifts, number of runs, the length of the longest run, number of trams, and acreage of skiiable terrain. Increasing trams or skiiable terrain alone would actually have a negative impact on pricing because that would indicate the resort got larger without providing more access to the new areas.
 
 In figure 3, the random forest model indicated four features that made the largest impact: number of fast quad lifts, number of runs, number of acres covered by snow making, and vertical drop.
+
 ![Figure-3](images/rfg-features.jpg)
 
 These four features were also indicated in the linear model as important features, and the random forest model had a mean average error of nearly $1 less than the linear model. The random forest model will be the model to use to project future pricing for Big Mountain Resort.
